@@ -28,7 +28,7 @@ class Ideone
 					System.out.println("Infinity")
 				}
 				break;
-			default:System.out.println("No operation,so chooose the choice 1 to 4");
+			default:System.out.println("No operation,so choose the choice 1 to 4");
 				break;
 			
 		}
