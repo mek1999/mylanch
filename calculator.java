@@ -25,7 +25,7 @@ class Ideone
 				}
 				else
 				{
-					System.out.println("In")
+					System.out.println("Infinity")
 				}
 				break;
 			default:break;
