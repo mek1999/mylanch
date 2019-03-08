@@ -16,7 +16,7 @@ class Ideone
 		ch=s.nextInt();
 		if(sp!=1)
 		{
-			System.out.println("Source point must be 1");
+			System.out.println("Source point must be 1\nTry again!!!");
 		}
 		else if(dp>sp)
 		{	dp=dp-1;
@@ -40,7 +40,7 @@ class Ideone
 			}
 		else
 		{
-			System.out.println("Destination point is not accepted");
+			System.out.println("Destination point is not accepted\nTry again!!");
 		}
 		
 	}	
