@@ -1,0 +1,11 @@
+CREATE DATABASE guvi;
+USE guvi;
+CREATE TABLE student(ID int,ROLLNO varchar(100),NAME varchar(100),MARK1 int,MARK2 int,MARK3 int,MARK4 int,MARK5 int);
+desc student;
+INSERT INTO student values(10,"16cs076","abc",89,99,78,97,93);
+desc student;
+INSERT INTO student values(10,"16cs065","wer",89,99,78,97,93);
+INSERT INTO student values(20,"16cs055","asd",89,99,78,97,93);
+INSERT INTO student values(14,"16cs053","tyu",89,99,78,97,93);
+SELECT * FROM student;
+SELECT ID,NAME FROM student;
