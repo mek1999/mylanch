@@ -14,7 +14,7 @@ class Ideone
 		s1=s.nextLine();
 		s2=s.nextLine();
 		
-		System.out.println(""+s1+" "+s2);
+		System.out.println(""+s1+""+s2);
 	}
 }
 
